@@ -36,6 +36,7 @@
     transform: rotate(360deg);
   }
 }
+<<<<<<< HEAD
 
 .formulario{
   width: 390px;
@@ -50,3 +51,5 @@
   background-color: #3eaabd;
   border-radius: 5px;
 }
+=======
+>>>>>>> 0a5a38e (Initialize project using Create React App)
