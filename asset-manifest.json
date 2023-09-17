@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Uciel22.github.io/practico3/static/css/main.0c48d5be.css",
-    "main.js": "/Uciel22.github.io/practico3/static/js/main.8e51ce29.js",
-    "index.html": "/Uciel22.github.io/practico3/index.html",
-    "main.0c48d5be.css.map": "/Uciel22.github.io/practico3/static/css/main.0c48d5be.css.map",
-    "main.8e51ce29.js.map": "/Uciel22.github.io/practico3/static/js/main.8e51ce29.js.map"
+    "main.css": "/practico3/static/css/main.0c48d5be.css",
+    "main.js": "/practico3/static/js/main.c1598574.js",
+    "index.html": "/practico3/index.html",
+    "main.0c48d5be.css.map": "/practico3/static/css/main.0c48d5be.css.map",
+    "main.c1598574.js.map": "/practico3/static/js/main.c1598574.js.map"
   },
   "entrypoints": [
     "static/css/main.0c48d5be.css",
-    "static/js/main.8e51ce29.js"
+    "static/js/main.c1598574.js"
   ]
 }
