@@ -6,6 +6,10 @@ import piedra from "../imagenes/piedra.jpg";
 function generarOpcionPC(){
     let numeroAleatorio = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
     let imagenElegidaPC = ""
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
     switch(numeroAleatorio){
         case 1:
             imagenElegidaPC = piedra;
@@ -23,6 +27,10 @@ function generarOpcionPC(){
 function cambiarImagen(evento,estado,setEstado,){
     let opcionUsuario = "";
     let opcionPC = generarOpcionPC();
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
     switch(evento.target.name){
         case "piedra":
             opcionUsuario = piedra;
@@ -34,6 +42,10 @@ function cambiarImagen(evento,estado,setEstado,){
             opcionUsuario = tijera;
             break;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
     setEstado((estadoAnterior)=>{
         return{
             ...estadoAnterior,
@@ -41,8 +53,15 @@ function cambiarImagen(evento,estado,setEstado,){
             imagenPC:opcionPC
         }
     });
+<<<<<<< HEAD
     cambiarMarcador(opcionUsuario,opcionPC,estado,setEstado)
 }
+=======
+
+    cambiarMarcador(opcionUsuario,opcionPC,estado,setEstado)
+}
+
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
 function cambiarMarcador(opcionUsuario,opcionPC,estado, setEstado){
     let puntosUsuario = estado.usuario;
     let puntosPC = estado.pc;
@@ -75,9 +94,15 @@ function cambiarMarcador(opcionUsuario,opcionPC,estado, setEstado){
     setEstado((estadoAnterior)=>{
         return {
             ...estadoAnterior,
+<<<<<<< HEAD
             usuario:puntosUsuario,
             ronda:rondas,
             pc:puntosPC,
+=======
+            usuario: puntosUsuario,
+            ronda: rondas,
+            pc: puntosPC,
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
         }
     })
 
@@ -95,4 +120,8 @@ function reiniciarMarcador(setEstado){
 
 }
 export { cambiarImagen, reiniciarMarcador};
+<<<<<<< HEAD
+=======
+
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
 export default cambiarImagen

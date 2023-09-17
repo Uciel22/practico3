@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
 
 *, *::before, *::after {
   box-sizing: border-box;
 }
 * {
+<<<<<<< HEAD
   margin: 0;
 }
 body {
@@ -11,17 +15,28 @@ body {
 body {
   margin: 0;
 >>>>>>> 0a5a38e (Initialize project using Create React App)
+=======
+  margin: 0;
+}
+body {
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 <<<<<<< HEAD
+<<<<<<< HEAD
   width: 100%;
   height: 100%;
   background-color: #a5b5b2;
 =======
 >>>>>>> 0a5a38e (Initialize project using Create React App)
+=======
+  width: 100%;
+  height: 100%;
+  background-color: #a5b5b2;
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
 }
 
 code {
@@ -29,6 +44,9 @@ code {
     monospace;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
 
 .Encabezado,.Footer{
   background-color: black;
@@ -137,6 +155,10 @@ code {
   }
 
   
+<<<<<<< HEAD
 }
 =======
 >>>>>>> 0a5a38e (Initialize project using Create React App)
+=======
+}
+>>>>>>> a7ea714 (Agrego proyecto piedra papel tijeras en React)
